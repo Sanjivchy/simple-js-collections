@@ -1,0 +1,31 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: royalblue;
+}
+#search{
+    display: flex;
+    padding: 20px;
+    background-color: orange;
+}
+#search label{
+    font-size: 24px;
+    margin-right: 25px;
+}
+#result{
+    display: block;
+    padding: 10px;
+}
+#result .name{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    list-style-type: none;
+}

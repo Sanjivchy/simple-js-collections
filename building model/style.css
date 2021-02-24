@@ -1,0 +1,33 @@
+html,body {
+    margin: 0;height: 100vh;padding: 50px;
+    text-align: center;  
+    background-color: wheat;
+    }
+    #open-model,#close-model{
+      background-color: royalblue;
+      color: white;
+      padding: 15px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    #model{
+      background-color: white;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      height: 200px;
+      position: relative;
+      top: 30%;
+    }
+    
+    #overlay{
+      display: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    background-color: rgba(0, 0, 0,1);
+    }
